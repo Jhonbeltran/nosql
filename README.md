@@ -29,19 +29,19 @@ Not only SQL ***puede o no*** seguir todas las reglas de una base de datos relac
 
 2. Las bases de datos **NoSQL** están diseñadas para ser distribuidas desde el comienzo, las bases de datos relacionales no.
 
-  Los principios fundamentales de un sistema de datos distribuido son:
+      Los principios fundamentales de un sistema de datos distribuido son:
 
-  - Autonomía local.
-  - No dependencia de un sitio central.
-  - Operación continúa.
-  - Independencia con respecto a la localización.
-  - Independencia con respecto a la fragmentación.
-  - Independencia de réplica.
-  - Procesamiento distribuido de consultas.
-  - Manejo distribuido de transacciones.
-  - Independencia con respecto al equipo.
-  - Independencia con respecto al sistema operativo.
-  - Independencia con respecto a la red.
-  - Independencia con respecto al SGBD.
+      - Autonomía local.
+      - No dependencia de un sitio central.
+      - Operación continúa.
+      - Independencia con respecto a la localización.
+      - Independencia con respecto a la fragmentación.
+      - Independencia de réplica.
+      - Procesamiento distribuido de consultas.
+      - Manejo distribuido de transacciones.
+      - Independencia con respecto al equipo.
+      - Independencia con respecto al sistema operativo.
+      - Independencia con respecto a la red.
+      - Independencia con respecto al SGBD.
 
 3. **Sharding**: Con las bases de datos **NoSQL** puedo tener varios servidores y en cada servidor tener una parte de la base de datos, puedo distribuir la información y eso me facilita los procesos de recuperación y puedo escalar únicamente lo que necesito y no es necesario escalar todo el cluster. En las bases de datos relacionales es complejo el proceso de distribución.
