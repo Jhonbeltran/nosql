@@ -6,3 +6,5 @@ NoSql es un conjunto de bases de datos que tienen un propósito especifico. Lo q
 * Redis nos resuelve el problema de guardar información con llave - valor.
 
 Not only SQL ***puede o no*** seguir todas las reglas de una base de datos relacional, y ***puede o no*** usar SQL como lenguaje de consultas.
+
+[Implementaciónes de bases de datos no relacionales - NoSQL](https://platzi.com/clases/mongodb-redis/concepto/introduccion2452/implementaciones-de-bases-de-datos-no-relacionales/material/)
