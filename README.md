@@ -45,3 +45,5 @@ Not only SQL ***puede o no*** seguir todas las reglas de una base de datos relac
       - Independencia con respecto al SGBD.
 
 3. **Sharding**: Con las bases de datos **NoSQL** puedo tener varios servidores y en cada servidor tener una parte de la base de datos, puedo distribuir la información y eso me facilita los procesos de recuperación y puedo escalar únicamente lo que necesito y no es necesario escalar todo el cluster. En las bases de datos relacionales es complejo el proceso de distribución.
+
+> Redundar información en una base de datos relacional es un pecado, sin embargo en una base de datos no relacional no lo es ya que es más barato pagar por almacenamiento que por memoria RAM.
