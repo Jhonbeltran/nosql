@@ -14,3 +14,11 @@
       - `show collections`  ver las colecciones
 
 En mongo tambien podemos usar javascript modificado para tratamiento de datos. Los cuales pueden ser usados directamente desde la terminal de mongo o ser cargados usando la funcion load() ej: `load("scripts/functions.js")`
+
+* Podemos crear un documento usando: `nombre_var = {"_id": 1, "name": "Bitcoin",}`
+
+* Para agregar un documento a una colección usando una variable `db.ticket.insert(nombre_var)`
+
+* Para agregar un solo documento a una colección usando una variable `db.ticket.insertOne(nombre_var2)`
+
+* Para insertar varios documentos a una colección usando un array de variables `db.ticker.insertMany([a,b])`
